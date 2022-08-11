@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+input, select {
+	vertical-align:middle;
+}
+/* body */
+body {
+	padding: 100px 10px 30px;
+	color: #000;
+	background-color: #fefefe;
+	box-sizing: border-box;
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+}
+.content {
+}
+.logo {
+	max-width: 370px;
+	margin: 0px auto 75px;
+}
+.logo img {
+	max-width: 370px;
+}
+.searchBar {
+	max-width: 670px;
+	margin: 0px auto;
+	height: 58px;
+	box-shadow: 4px 4px 16px #e1e1e1, -2px -2px 16px #fff;
+	border-radius: 50px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+}
+
+#input {
+	width: 80%;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+	padding-left: 30px; 
+	outline: none;
+	font-family: 'Jura', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+}
+#button {
+	padding: 14px 54px 13px;
+	/* background-color: #5989CA; */
+	background-color: #caa259;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Jura', sans-serif;
+	font-weight: 700;
+	transition: all 0.5s;
+	cursor: pointer;
+	box-shadow: 4px 4px 16px #e1e1e1, -2px -2px 16px #fff;
+}
+#button:hover {
+  /* background-color: #3060A0; */
+	background-color: #bea982;
+  color: white;
+	/* box-shadow: 4px 4px 16px #b4b4b4, -2px -2px 16px #fff; */
+	box-shadow: none;
+}
+footer {
+	margin: 0px auto;
+	width: 185px;
+}
+.footer {
+  position: absolute;
+	left: 0;
+	right: 0;
+  bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	
+}
+.footer a {
+	position: relative;
+	z-index: 10;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 18px;
+	/* color: #FF914D; */
+	color: #5989CA;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.5s;
+	font-weight: 600;
+}
+.footer a:hover {
+	/* color: #3060A0; */
+	color: #FF914D;
+}
+.footer p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0px auto 35px;
+	color: #716f6f;
+}
